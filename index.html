@@ -523,8 +523,41 @@
                 return;
             }
 
+            // *** IMPORTANT: Replace this with your actual server-side submission logic ***
             // Simulate sending data (replace with actual API call)
-            simulateSubmission(email)
+            // Example using fetch (you'll need a server endpoint to handle this):
+            /*
+            fetch('/your-server-endpoint', {  //  <---  Replace '/your-server-endpoint'
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ email })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                formMessage.textContent = data.message;
+                formMessage.style.color = data.success ? '#16a34a' : '#dc2626';
+                if (data.success) {
+                    emailInput.value = '';
+                }
+            })
+            .catch(error => {
+                formMessage.textContent = 'An error occurred. Please try again later.';
+                formMessage.style.color = '#dc2626';
+                console.error('Submission Error:', error);
+            });
+            */
+
+            //  *** End of placeholder  ***
+
+            // Simulate an asynchronous operation (e.g., an API call)
+            simulateSubmission(email)  //  <---  Keep this for now, but replace it with the fetch code above
                 .then(response => {
                     formMessage.textContent = response.message;
                     formMessage.style.color = response.success ? '#16a34a' : '#dc2626'; // Green or red
