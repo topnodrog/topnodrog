@@ -1,0 +1,5 @@
+{
+  "name": "Web3 Knowledge Base AI Trainer",
+  "description": "A comprehensive Web3 knowledge base designed to train an artificial intelligence in the art of blockchain coding, leveraging Gemini with Google Search grounding for up-to-date information.",
+  "requestFramePermissions": []
+}
