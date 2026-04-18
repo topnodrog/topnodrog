@@ -1,9 +1,4 @@
-## Hi there 👋
-
-<!--
 **topnodrog/topnodrog** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are so
 
 **1.0 Executive Summary**
 
